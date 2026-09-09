@@ -6,14 +6,14 @@
     color: #111827;
 }
 
-.container {
+.containerPagCad {
     width: 100%;
     height: 100vh;
     display: flex;
     overflow: hidden;
 }
 
-.lado-esquerdo {
+.LadoEsquerdoPagCad {
     width: 47%;
     height: 100vh;
     background-color: #0d1629;
@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.conteudo-esquerdo {
+.ConteudoEsquerdoPagCad {
     width: 100%;
     height: 100%;
     padding: 36px 28px;
@@ -29,7 +29,7 @@
     flex-direction: column;
 }
 
-.logo {
+.LogoPagCad {
     display: flex;
     align-items: center;
     gap: 7px;
@@ -37,23 +37,23 @@
     font-weight: bold;
 }
 
-.apresentacao {
+.ApresentPagCad {
     margin-top: 94px;
     max-width: 440px;
 }
 
-.apresentacao h1 {
+.ApresentPagCad h1 {
     font-size: 31px;
     line-height: 1.08;
     font-weight: 400;
     letter-spacing: -0.8px;
 }
 
-.apresentacao h1 span {
+.ApresentPagCad h1 span {
     color: #ff7200;
 }
 
-.apresentacao p {
+.ApresentPagCad p {
     margin-top: 18px;
     color: #9ca8bc;
     font-size: 13px;
@@ -61,14 +61,14 @@
     max-width: 310px;
 }
 
-.passos {
+.NumLegendasPagCad {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
 
-.passo {
+.NumLegendaPagCad {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -76,7 +76,7 @@
     font-size: 11px;
 }
 
-.numero {
+.NumsPagCad {
     width: 22px;
     height: 22px;
     display: flex;
@@ -89,7 +89,7 @@
     font-size: 11px;
 }
 
-.FPagCad {
+.FooterPagCad {
     position: absolute;
     left: 28px;
     bottom: 30px;
@@ -97,7 +97,7 @@
     font-size: 9px;
 }
 
-.lado-direito {
+.LadoDireitoPagCad {
     width: 53%;
     height: 100vh;
     background-color: #f0f4f9;
@@ -106,36 +106,36 @@
     align-items: center;
 }
 
-.formulario {
+.FormPersonalizadoPagCad {
     width: 100%;
     max-width: 300px;
 }
 
-.titulo-formulario h2 {
+.TituloFormPagCad h2 {
     font-size: 20px;
     font-weight: 700;
     color: #182236;
 }
 
-.titulo-formulario p {
+.TituloFormPagCad p {
     margin-top: 5px;
     color: #667085;
     font-size: 10px;
 }
 
-form {
+.FormPagCad {
     margin-top: 14px;
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
 
-.campo {
+.CampoPagCad {
     display: flex;
     flex-direction: column;
 }
 
-.campo label {
+.CampoPagCad label {
     margin-bottom: 5px;
     font-size: 8px;
     font-weight: bold;
@@ -143,8 +143,8 @@ form {
     letter-spacing: 0.3px;
 }
 
-.campo input,
-.campo select {
+.CampoPagCad input,
+.CampoPagCad select {
     width: 100%;
     height: 32px;
     padding: 0 12px;
@@ -158,18 +158,18 @@ form {
     box-sizing: border-box;
 }
 
-.campo input::placeholder {
+.CampoPagCad input::placeholder {
     color: #555b65;
     font-weight: 500;
 }
 
-.campo input:focus,
-.campo select:focus {
+.CampoPagCad input:focus,
+.CampoPagCad select:focus {
     border-color: #7130df;
     box-shadow: 0 0 0 2px rgba(113, 48, 223, 0.08);
 }
 
-.campo select {
+.CampoPagCad select {
     cursor: pointer;
     display: block;
     width: 100%;
@@ -177,37 +177,37 @@ form {
     -webkit-appearance: none;
     -moz-appearance: none;
     background-image:
-        linear-gradient(45deg, transparent 50%, #777 50%),
-        linear-gradient(135deg, #777 50%, transparent 50%);
+    linear-gradient(45deg, transparent 50%, #777 50%),
+    linear-gradient(135deg, #777 50%, transparent 50%);
     background-position:
-        calc(100% - 14px) center,
-        calc(100% - 10px) center;
+    calc(100% - 14px) center,
+    calc(100% - 10px) center;
     background-size:
-        4px 4px,
-        4px 4px;
+    4px 4px,
+    4px 4px;
     background-repeat: no-repeat;
 }
 
-.linha-campos {
+.LinhaCamposPagCad {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
-.campo small {
+.CampoPagCad small {
     margin-top: 4px;
     font-size: 7px;
     color: #777;
 }
 
-.termos {
+.TermosPagCad {
     display: flex;
     align-items: flex-start;
     gap: 7px;
     margin-top: 1px;
 }
 
-.termos input {
+.TermosPagCad input {
     width: 10px;
     height: 10px;
     margin-top: 1px;
@@ -215,32 +215,28 @@ form {
     cursor: pointer;
 }
 
-.termos label {
+.TermosPagCad label {
     color: #4b5563;
     font-size: 9px;
     line-height: 1.4;
 }
 
-.termos a {
+.TermosPagCad a {
     color: #5d20d5;
     text-decoration: none;
     font-weight: 500;
 }
 
-.termos a:hover {
+.TermosPagCad a:hover {
     text-decoration: underline;
 }
 
-button {
+.PagCadbutton {
     width: 100%;
     height: 35px;
     border: none;
     border-radius: 7px;
-    background: linear-gradient(
-        90deg,
-        #7025db,
-        #6421c6
-    );
+    background: linear-gradient(90deg,#7025db,#6421c6);
     color: white;
     font-size: 10px;
     font-weight: bold;
@@ -249,16 +245,16 @@ button {
     transition: 0.2s;
 }
 
-button:hover {
+.PagCadButton:hover {
     transform: translateY(-1px);
     box-shadow: 0 7px 15px rgba(91, 32, 190, 0.35);
 }
 
-button:active {
+.PagCadButton:active {
     transform: translateY(0);
 }
 
-.login {
+.LoginPagCad {
     margin-top: 13px;
     display: flex;
     justify-content: center;
@@ -268,58 +264,58 @@ button:active {
     color: #606b7a;
 }
 
-.login a {
+.LoginPagCad a {
     color: #5d20d5;
     text-decoration: none;
     font-weight: 600;
 }
 
-.login a:hover {
+.LoginPagCad a:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 750px) {
-    .container {
-        flex-direction: column;
-    }
+.containerPagCad {
+flex-direction: column;
+}
 
-    .lado-esquerdo,
-    .lado-direito {
-        width: 100%;
-    }
+.LadoEsquerdoPagCad,
+.LadoDireitoPagCad {
+    width: 100%;
+}
 
-    .lado-esquerdo {
-        min-height: 400px;
-    }
+.LadoEsquerdoPagCad {
+    min-height: 400px;
+}
 
-    .conteudo-esquerdo {
-        min-height: 400px;
-    }
+.ConteudoEsquerdoPagCad {
+    min-height: 400px;
+}
 
-    .apresentacao {
-        margin-top: 60px;
-    }
+.ApresentPagCad {
+    margin-top: 60px;
+}
 
-    .lado-direito {
-        min-height: 600px;
-        padding: 40px 20px;
-    }
+.LadoDireitoPagCad {
+    min-height: 600px;
+    padding: 40px 20px;
+}
 
-    .formulario {
-        max-width: 400px;
-    }
+.FormPagCad {
+    max-width: 400px;
+}
 }
 
 @media (max-width: 450px) {
-    .linha-campos {
-        grid-template-columns: 1fr;
-    }
+.LinhaCamposPagCad {
+grid-template-columns: 1fr;
+}
 
-    .apresentacao h1 {
-        font-size: 28px;
-    }
+.ApresentPagCad h1 {
+    font-size: 28px;
+}
 
-    .formulario {
-        max-width: 100%;
-    }
+.FormPagCad {
+    max-width: 100%;
+}
 }
